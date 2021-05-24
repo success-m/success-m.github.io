@@ -1,0 +1,4 @@
+{
+  "app.containers.HomePage.header": "Hello World!!",
+  "app.containers.NotFoundPage.header": "Oops!! Page not found."
+}
