@@ -1,4 +1,12 @@
 {
   "app.containers.HomePage.header": "नमस्कार",
+  "app.containers.HomePage.info": "यो वेबसाइट निर्माणाधीन छ। कृपया पछि फेरि आउनुहोस्।",
+
+  "app.nav.link0": "गृह पृष्ठ",
+  "app.nav.link1": "मेरो रुचि",
+  "app.nav.link2": "मेरो पेशा",
+  "app.nav.link3": "निर्माण कागजात",
+
+  "app.containers.ComingSoon.header": "पृष्ठ छिट्टै आउँदैछ !!",
   "app.containers.NotFoundPage.header": "ओहो!! पृष्ठ फेला परेन"
 }

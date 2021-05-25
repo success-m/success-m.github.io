@@ -12,4 +12,8 @@ export default defineMessages({
     id: `${scope}.header`,
     defaultMessage: '',
   },
+  info: {
+    id: `${scope}.info`,
+    defaultMessage: '',
+  },
 });

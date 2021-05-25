@@ -11,21 +11,22 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 import HomePage from 'containers/HomePage/Loadable';
+import ComingSoon from 'containers/ComingSoon/Loadable';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
 
 import GlobalStyle from '../../global-styles';
 import '../../../node_modules/bootstrap/dist/css/bootstrap-grid.css';
-import Language from '../../components/Language';
-import LocaleToggle from '../LocaleToggle';
+import Header from '../../components/Header';
 
 export default function App() {
   return (
     <div className="container-fluid">
-      <Language>
-        <LocaleToggle />
-      </Language>
+      <Header />
       <Switch>
         <Route exact path="/" component={HomePage} />
+        <Route exact path="/interests" component={ComingSoon} />
+        <Route exact path="/my-career" component={ComingSoon} />
+        <Route exact path="/documentation" component={ComingSoon} />
         <Route component={NotFoundPage} />
       </Switch>
       <GlobalStyle />

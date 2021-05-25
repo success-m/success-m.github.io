@@ -1,4 +1,12 @@
 {
-  "app.containers.HomePage.header": "Hello World!!",
+  "app.containers.HomePage.header": "Hello!!",
+  "app.containers.HomePage.info": "This site is under construction. Please visit again later.",
+
+  "app.nav.link0": "Home",
+  "app.nav.link1": "My Interests",
+  "app.nav.link2": "My Career",
+  "app.nav.link3": "Documentation",
+
+  "app.containers.ComingSoon.header": "Coming Soon!!",
   "app.containers.NotFoundPage.header": "Oops!! Page not found."
 }
