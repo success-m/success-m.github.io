@@ -1,13 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import LocaleToggle from '../../containers/LocaleToggle';
 import '../css/text.css';
+import '../css/navBar.css';
 import LogoFile from '../../images/icon-512x512.png';
 import Logo from '../Logo';
-import NavWrapper from './NavWrapper';
-import NavLinks from './NavLinks';
 import getColor from '../ColorCode';
-import { camelCase } from 'lodash';
 import Navigation from '../../containers/Navigation';
+import MenuToggle from './MenuToggle';
 
 export default function Header() {
   return (
@@ -26,11 +26,22 @@ export default function Header() {
       }}
     >
       <div className="col-12 col-lg-1 center">
-        <a href="/">
+        <MenuToggle
+          onClick={() => {
+            if (document.getElementById('navbar').classList.contains('hide')) {
+              document.getElementById('navbar').classList.remove('hide');
+            } else {
+              document.getElementById('navbar').classList.add('hide');
+            }
+          }}
+        >
+          |||
+        </MenuToggle>
+        <Link to="/">
           <Logo src={LogoFile} alt="successmalla.com.np" />
-        </a>
+        </Link>
       </div>
-      <div className="col-12 col-lg-10 center">
+      <div className="hide col-12 col-lg-10 center navbar" id="navbar">
         <Navigation />
       </div>
       <div className="col-12 col-lg-1 center">

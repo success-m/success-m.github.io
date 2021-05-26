@@ -1,12 +1,15 @@
 {
-  "app.containers.HomePage.header": "नमस्कार",
-  "app.containers.HomePage.info": "यो वेबसाइट निर्माणाधीन छ। कृपया पछि फेरि आउनुहोस्।",
+  "app.containers.HomePage.header": "मेरो परिचय",
+  "app.containers.HomePage.info": "म, बिग डाटा इञ्जिनियर, बिग डाटाको अनुसन्धानमा सक्रिय छु। साथै, मेरो संगीत, फोटोग्राफी र फिट्नेसमा रुचि छ। मैले यस साइट मार्फत मेरो रुचि र सीपहरू व्यक्त गर्ने प्रयास गरेको छु।",
 
-  "app.nav.link0": "गृह पृष्ठ",
-  "app.nav.link1": "मेरो रुचि",
-  "app.nav.link2": "मेरो पेशा",
-  "app.nav.link3": "निर्माण कागजात",
+  "app.nav.link0": "गृहपृष्ठ",
+  "app.nav.link1": "रुचि",
+  "app.nav.link2": "करियर",
+  "app.nav.link3": "दकुमेन्तेशन",
 
   "app.containers.ComingSoon.header": "पृष्ठ छिट्टै आउँदैछ !!",
-  "app.containers.NotFoundPage.header": "ओहो!! पृष्ठ फेला परेन"
+  "app.containers.NotFoundPage.header": "ला!! पृष्ठ फेला परेन",
+
+  "boilerplate.containers.LocaleToggle.en": "अंग्रेजी",
+  "boilerplate.containers.LocaleToggle.ne": "नेपाली"
 }

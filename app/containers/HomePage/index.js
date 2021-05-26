@@ -32,7 +32,10 @@ export default function HomePage() {
           <FullH1 className="center">
             <FormattedMessage {...messages.header} />
           </FullH1>
-          <p className="center" style={{ fontSize: '1.5em' }}>
+          <p
+            className="center"
+            style={{ fontSize: '1.5em', lineHeight: '1.7em' }}
+          >
             <FormattedMessage {...messages.info} />
           </p>
         </div>

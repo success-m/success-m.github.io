@@ -21,6 +21,12 @@ const Select = styled.select`
     font-weight: bold;
     font-style: italic;
   }
+
+  @media only screen and (max-width: 991px) {
+    position: fixed;
+    top: 15px;
+    right: 22px;
+  }
 `;
 
 export default Select;

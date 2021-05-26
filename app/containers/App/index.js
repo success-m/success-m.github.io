@@ -25,7 +25,7 @@ export default function App() {
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route exact path="/interests" component={ComingSoon} />
-        <Route exact path="/my-career" component={ComingSoon} />
+        <Route exact path="/career" component={ComingSoon} />
         <Route exact path="/documentation" component={ComingSoon} />
         <Route component={NotFoundPage} />
       </Switch>

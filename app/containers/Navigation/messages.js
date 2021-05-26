@@ -21,7 +21,7 @@ export default defineMessages({
   link2: {
     id: `${scope}.link2`,
     defaultMessage: '',
-    link: '/my-career',
+    link: '/career',
   },
   link3: {
     id: `${scope}.link3`,

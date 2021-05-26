@@ -1,12 +1,15 @@
 {
-  "app.containers.HomePage.header": "Hello!!",
-  "app.containers.HomePage.info": "This site is under construction. Please visit again later.",
+  "app.containers.HomePage.header": "Who am I?",
+  "app.containers.HomePage.info": "A Big Data Engineer passionate about exploring ways to process Big Data as a career and interested in music, photography, fitness to name a few. I have tried to express my interests and skills via this site.",
 
   "app.nav.link0": "Home",
-  "app.nav.link1": "My Interests",
-  "app.nav.link2": "My Career",
+  "app.nav.link1": "Interests",
+  "app.nav.link2": "Career",
   "app.nav.link3": "Documentation",
 
   "app.containers.ComingSoon.header": "Coming Soon!!",
-  "app.containers.NotFoundPage.header": "Oops!! Page not found."
+  "app.containers.NotFoundPage.header": "Oops!! Page not found.",
+
+  "boilerplate.containers.LocaleToggle.en": "English",
+  "boilerplate.containers.LocaleToggle.ne": "Nepali"
 }

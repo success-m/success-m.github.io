@@ -1,6 +1,7 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
-const NavA = styled.a`
+const NavA = styled(Link)`
   color: inherit;
   text-decoration: none;
 
