@@ -56,12 +56,12 @@
       "type": "image/png"
     }
   ],
-  "name": "React Boilerplate",
-  "short_name": "React BP",
+  "name": "Success Malla",
+  "short_name": "SM",
   "orientation": "portrait",
   "display": "standalone",
   "start_url": ".",
-  "description": "My React Boilerplate-based project!",
+  "description": "My personal Site!",
   "background_color": "#fafafa",
   "theme_color": "#b1624d"
 }
