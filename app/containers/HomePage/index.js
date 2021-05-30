@@ -16,30 +16,33 @@ import getColor from '../../components/ColorCode';
 
 export default function HomePage() {
   return (
-    <>
-      <FullHeight
-        className="row justify-content-center"
-        style={{
-          backgroundColor: `rgb(${getColor(4)
-            .map(v => Math.min(v * 1.345, 255))
-            .join(',')})`,
-          color: `rgb(${getColor(3)
-            .map(v => Math.min(v * 0.1, 255))
-            .join(',')})`,
-        }}
-      >
-        <div className="col col-lg-6 align-self-center">
-          <FullH1 className="center">
-            <FormattedMessage {...messages.header} />
-          </FullH1>
-          <p
-            className="center"
-            style={{ fontSize: '1.5em', lineHeight: '1.7em' }}
-          >
-            <FormattedMessage {...messages.info} />
-          </p>
-        </div>
-      </FullHeight>
-    </>
+    <div
+      style={{
+        // backgroundColor: `#fff`,
+        color: '#fff',
+        // color: `rgb(${getColor(3)
+        //   .map(v => Math.min(v * 0.1, 255))
+        //   .join(',')})`,
+        // // position: 'fixed',
+        // width: 'calc(100vw)',
+        // zIndex: '9999',
+      }}
+    >
+      <div className="container">
+        <FullHeight className="row justify-content-center">
+          <div className="col col-lg-6 align-self-center">
+            <FullH1 className="center">
+              <FormattedMessage {...messages.header} />
+            </FullH1>
+            <p
+              className="center"
+              style={{ fontSize: '1.5em', lineHeight: '1.7em' }}
+            >
+              <FormattedMessage {...messages.info} />
+            </p>
+          </div>
+        </FullHeight>
+      </div>
+    </div>
   );
 }

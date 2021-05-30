@@ -20,7 +20,7 @@ import Header from '../../components/Header';
 
 export default function App() {
   return (
-    <div className="container-fluid">
+    <div id="main-wrapper">
       <Header />
       <Switch>
         <Route exact path="/" component={HomePage} />

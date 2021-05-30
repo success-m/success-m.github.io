@@ -1,20 +1,21 @@
 @media only screen and (max-width: 991px) {
   .navbar {
     /* opacity: 1; */
-    background: white;
-    position: absolute;
-    right: 0px;
-    transition: right 1s;
-    height: calc(100vh);
+    /* background: white; */
+    /* position: absolute; */
+    /* right: 0px; */
+    /* transition: right 1s; */
+    /* height: calc(100vh); */
   }
   .navbar.hide {
     /* position: absolute;
     left: calc(100vh); */
     /* display: none; */
     /* position: absolute; */
-    right: calc(100vw + 100px);
+    /* right: calc(100vw + 100px); */
   }
   .navbar ul{
-    justify-content: flex-start;
+    justify-content: center;
   }
+
 }

@@ -15,12 +15,27 @@ import messages from './messages';
 
 export default function NotFound() {
   return (
-    <FullHeight className="row justify-content-center">
-      <div className="col col-lg-6 align-self-center">
-        <FullH1 className="center">
-          <FormattedMessage {...messages.header} />
-        </FullH1>
+    <div
+      style={{
+        // backgroundColor: `#fff`,
+        color: '#fff',
+        // color: `rgb(${getColor(3)
+        //   .map(v => Math.min(v * 0.1, 255))
+        //   .join(',')})`,
+        // // position: 'fixed',
+        // width: 'calc(100vw)',
+        // zIndex: '9999',
+      }}
+    >
+      <div className="container">
+        <FullHeight className="row justify-content-center">
+          <div className="col col-lg-6 align-self-center">
+            <FullH1 className="center">
+              <FormattedMessage {...messages.header} />
+            </FullH1>
+          </div>
+        </FullHeight>
       </div>
-    </FullHeight>
+    </div>
   );
 }

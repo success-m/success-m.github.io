@@ -6,10 +6,12 @@ import styled from 'styled-components';
 //   right: 45px;
 // `;
 
-const Logo = styled.img`
-  width: 35%;
-  max-width: 43px;
-  margin: 1em auto;
+const Logo = styled.span`
+  // width: 35%;
+  // max-width: 27px;
+  padding: 0.3em;
+  margin:0.3em auto;
+  font-size: 1.5em;
 `;
 
 export default Logo;
