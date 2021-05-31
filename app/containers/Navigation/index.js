@@ -17,18 +17,7 @@ export default function Navigation() {
     <NavWrapper>
       {links.map((l, i) => (
         <NavLinks key={i.toString()}>
-          <NavA
-            to={l.link}
-            onClick={() => {
-              if (
-                document.getElementById('navbar').classList.contains('hide')
-              ) {
-                document.getElementById('navbar').classList.remove('hide');
-              } else {
-                document.getElementById('navbar').classList.add('hide');
-              }
-            }}
-          >
+          <NavA to={l.link}>
             <FormattedMessage {...l} />
           </NavA>
         </NavLinks>

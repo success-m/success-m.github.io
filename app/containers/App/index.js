@@ -17,11 +17,14 @@ import NotFoundPage from 'containers/NotFoundPage/Loadable';
 import GlobalStyle from '../../global-styles';
 import '../../../node_modules/bootstrap/dist/css/bootstrap-grid.css';
 import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 
 export default function App() {
   return (
     <div id="main-wrapper">
+      {/* header here */}
       <Header />
+      {/* header ends here */}
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route exact path="/interests" component={ComingSoon} />
@@ -30,6 +33,9 @@ export default function App() {
         <Route component={NotFoundPage} />
       </Switch>
       <GlobalStyle />
+      {/* footer section start */}
+      <Footer />
+      {/* footer section end */}
     </div>
   );
 }
