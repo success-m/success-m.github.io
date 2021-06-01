@@ -8,7 +8,6 @@ import P from '../P';
 import Fitness from './Fitness';
 import Music from './Music';
 import New from './New';
-
 import Photography from './Photography';
 
 export default function Interest() {

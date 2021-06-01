@@ -12,21 +12,11 @@ import '../../components/css/text.css';
 import FullHeight from '../../components/FullHeight';
 import FullH1 from '../../components/FullH1';
 import messages from './messages';
+import Article from '../../components/Article';
 
 export default function NotFound() {
   return (
-    <div
-      style={{
-        // backgroundColor: `#fff`,
-        color: '#fff',
-        // color: `rgb(${getColor(3)
-        //   .map(v => Math.min(v * 0.1, 255))
-        //   .join(',')})`,
-        // // position: 'fixed',
-        // width: 'calc(100vw)',
-        // zIndex: '9999',
-      }}
-    >
+    <Article className="grey">
       <div className="container">
         <FullHeight className="row justify-content-center">
           <div className="col col-lg-6 align-self-center">
@@ -36,6 +26,6 @@ export default function NotFound() {
           </div>
         </FullHeight>
       </div>
-    </div>
+    </Article>
   );
 }

@@ -8,8 +8,8 @@ import NavA from '../../components/Header/NavA';
 export default function Navigation() {
   const links = [
     messages.link0,
-    messages.link1,
     messages.link2,
+    messages.link1,
     messages.link3,
   ];
 
