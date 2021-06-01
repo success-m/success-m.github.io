@@ -1,0 +1,67 @@
+{
+  "icons": [
+    {
+      "src": "/icon_180x180.6e57223b68a72a3fac0a9192b5a43a8e.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_167x167.d9c7432e6a994dcdc094e461397e2550.png",
+      "sizes": "167x167",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_152x152.84275a4530921477181c9b6b6e7b235c.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_120x120.db7c535741c2dd439e39c9867a153101.png",
+      "sizes": "120x120",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_512x512.4c239d411122367008d2a36d037ffbb6.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_384x384.421cdfd3809a32a99d36b54dad63cae9.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_192x192.3ceb4afa069303ee665f519ac16d08d3.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_144x144.8b40a804a9eab9088bb1e6c103a4e273.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_128x128.b87fb16fb8a0f59c319273a59a337d54.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_96x96.00d4fc3a52ca2f5f84b858a00600b154.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_72x72.11e6cd8896161389b23c2e16c27ce748.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    }
+  ],
+  "name": "Success Malla",
+  "short_name": "SM",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "My personal Site!",
+  "background_color": "#fafafa",
+  "theme_color": "#b1624d"
+}
