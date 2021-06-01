@@ -4,6 +4,7 @@ import {
   faFacebookSquare as Fb,
   faInstagram as Insta,
   faLinkedin as Ln,
+  faGithubSquare as Git,
 } from '@fortawesome/free-brands-svg-icons';
 
 import { faEnvelope as Mail } from '@fortawesome/free-solid-svg-icons';
@@ -40,14 +41,21 @@ export default function Footer() {
                 >
                   <FontAwesomeIcon icon={Ln} size="3x" />
                 </SocialIcons>
-              </div>
-              <div className="center">
-                <P>Or Send me an Email at successmalla@gmail.com</P>
                 <SocialIcons
                   href="mailto:successmalla@gmail.com"
                   target="_blank"
                 >
                   <FontAwesomeIcon icon={Mail} size="3x" />
+                </SocialIcons>
+              </div>
+              <div className="center">
+                <P>Or Send me an Email at successmalla@gmail.com</P>
+                <P>Want the source code?</P>
+                <SocialIcons
+                  href="https://github.com/success-m/success-m.github.io"
+                  target="_blank"
+                >
+                  <FontAwesomeIcon icon={Git} size="3x" />
                 </SocialIcons>
               </div>
             </div>

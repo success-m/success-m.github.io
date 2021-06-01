@@ -6,12 +6,12 @@ import FullH1 from '../FullH1';
 import FullHeight from '../FullHeight';
 import P from '../P';
 
-import PrestoImg from '../../images/bigdata/Presto.png';
-import SparkImg from '../../images/bigdata/spark.png';
-import EmrImg from '../../images/bigdata/EMR.png';
-import RedshiftImg from '../../images/bigdata/redshift.png';
-import S3Img from '../../images/bigdata/S3.png';
-import PythonImg from '../../images/bigdata/python.png';
+import PrestoImg from '../../images/Presto.png';
+import SparkImg from '../../images/spark.png';
+import EmrImg from '../../images/EMR.png';
+import RedshiftImg from '../../images/redshift.png';
+import S3Img from '../../images/S3.png';
+import PythonImg from '../../images/python.png';
 
 export default function CareerBigDataSection() {
   const data = [

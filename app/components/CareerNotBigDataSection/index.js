@@ -6,16 +6,16 @@ import FreeTimeBox from '../FreeTime/FreeTimeBox';
 import FullH1 from '../FullH1';
 import FullHeight from '../FullHeight';
 import P from '../P';
-import TalendPng from '../../images/othertools/talend.png';
-import FlaskPng from '../../images/othertools/flask.png';
-import PythonPng from '../../images/othertools/python.png';
-import LaravelPng from '../../images/othertools/laravel.png';
-import WordpressPng from '../../images/othertools/wordpress.png';
-import JsPng from '../../images/othertools/js.png';
-import JqueryPng from '../../images/othertools/jquery.png';
-import ReactPng from '../../images/othertools/react.png';
-import NodePng from '../../images/othertools/node.png';
-import JasperPng from '../../images/othertools/jasper.png';
+import TalendPng from '../../images/talend.png';
+import FlaskPng from '../../images/flask.png';
+import PythonPng from '../../images/python2.png';
+import LaravelPng from '../../images/laravel.png';
+import WordpressPng from '../../images/wordpress.png';
+import JsPng from '../../images/js.png';
+import JqueryPng from '../../images/jquery.png';
+import ReactPng from '../../images/react.png';
+import NodePng from '../../images/node.png';
+import JasperPng from '../../images/jasper.png';
 
 export default function CareerNotBigDataSection() {
   const data = [
