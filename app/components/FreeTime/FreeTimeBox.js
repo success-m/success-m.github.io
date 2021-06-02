@@ -14,7 +14,7 @@ const FreeTimeBox = styled.div`
   }
 
   & img {
-    width: 100%;
+    width: 90%;
     transition: margin 0.5s;
   }
 
@@ -23,16 +23,18 @@ const FreeTimeBox = styled.div`
     margin-bottom: 5px;
   }
 
-  @media only screen and (max-width: 1200px) {
-    min-width: 152px;
+  @media only screen and (max-width: 1370px) {
+    min-width: 100px;
+    max-width: 122px;
   }
+
+  // @media only screen and (max-width: 1200px) {
+  //   min-width: 152px;
+  // }
 
   @media only screen and (max-width: 767px) {
     min-width: 123px;
-
-    &.not-big-data p {
-      // font-size: 1em;
-    }
+   }
   }
 
   @media only screen and (max-width: 524px) {

@@ -21,7 +21,9 @@ export default function Footer() {
         <div className="container">
           <HalfHeight className="row justify-content-center">
             <div className="col col-lg-6 align-self-center">
-              <FullH1 className="center">Want to connect with me?</FullH1>
+              <FullH1 className="center footer-header">
+                Want to connect with me?
+              </FullH1>
               <div className="center">
                 <SocialIcons
                   href="https://www.facebook.com/success.malla"

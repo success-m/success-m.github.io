@@ -7,6 +7,10 @@ const FreeTime = styled.div`
   align-items: center;
   justify-content: center;
   margin-top: 4em;
+
+  @media only screen and (max-width: 1370px) {
+    max-width: 960px !important;
+  }
 `;
 
 export default FreeTime;

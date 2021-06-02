@@ -4,8 +4,8 @@ const FullH1 = styled.h1`
   font-size: 1.7em;
   font-weight: normal;
 
-  @media only screen and (max-width: 1200px) {
-    font-size: 1.4em;
+  @media only screen and (max-width: 1370px) {
+    font-size: 1.3em;
   }
 
   @media only screen and (max-width: 991px) {
@@ -19,6 +19,10 @@ const FullH1 = styled.h1`
 
   @media only screen and (max-width: 524px) {
     font-size: 1em;
+
+    &.footer-header {
+      margin: 3.4em 0 1.2em 0;
+    }
   }
 `;
 

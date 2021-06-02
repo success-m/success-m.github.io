@@ -58,7 +58,7 @@ export default function CareerBigDataSection() {
                 Tools I have worked with to solve Big problems in Big Data.
               </P>
             </div>
-            <Div style={{ marginTop: '55px' }}>
+            <Div className="card">
               {data.map((l, i) => (
                 <Card
                   key={i.toString()}

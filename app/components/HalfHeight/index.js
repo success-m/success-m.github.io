@@ -7,7 +7,7 @@ import styled from 'styled-components';
 const HalfHeight = styled.div`
   min-height: calc(50vh);
 
-  @media only screen and (max-width: 1200px) {
+  @media only screen and (max-width: 1370px) {
     min-height: 500px !important;
   }
 

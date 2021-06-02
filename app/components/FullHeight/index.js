@@ -9,7 +9,7 @@ const FullHeight = styled.div`
   padding-top: 10%;
   padding-bottom: 10%;
 
-  @media only screen and (max-width: 1200px) {
+  @media only screen and (max-width: 1370px) {
     min-height: 500px !important;
   }
 

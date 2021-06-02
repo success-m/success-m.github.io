@@ -73,7 +73,7 @@ export default function Interest() {
                 These are some of the things that I spend my time when free.
               </P>
             </div>
-            <Div style={{ marginTop: '55px' }}>
+            <Div className="card">
               {data.map((l, i) => (
                 <Card
                   key={i.toString()}

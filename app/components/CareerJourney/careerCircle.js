@@ -23,8 +23,9 @@ const CareerCircle = styled.div`
     border: 0;
   }
 
-  @media only screen and (max-width: 991px) {
+  @media only screen and (max-width: 1370px) {
     width: 90%;
+    max-width: 156px;
     font-size: 1em;
     padding: 2px;
   }

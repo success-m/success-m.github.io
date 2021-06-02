@@ -14,6 +14,23 @@ const CareerArrow = styled.img`
     margin-top: 20px;
     margin-bottom: 20px;
   }
+  @media only screen and (max-width: 1370px) {
+    &.mid-arrow {
+      margin-right: 26%;
+    }
+  }
+
+  @media only screen and (max-width: 1199px) {
+    &.mid-arrow {
+      margin-right: 23%;
+    }
+  }
+
+  @media only screen and (max-width: 991px) {
+    &.mid-arrow {
+      margin-right: 16%;
+    }
+  }
 
   @media only screen and (max-width: 574px) {
     display: none;

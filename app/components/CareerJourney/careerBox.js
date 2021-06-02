@@ -4,6 +4,10 @@ const CareerBox = styled.div`
   width: 25%;
   text-align: center;
 
+  @media only screen and (max-width: 1370px) {
+    max-width: 173px;
+  }
+
   @media only screen and (max-width: 574px) {
     min-width: 132px;
   }
