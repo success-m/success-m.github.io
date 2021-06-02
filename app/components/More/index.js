@@ -28,6 +28,15 @@ const More = styled(Link)`
     margin-top: -2px;
     margin-bottom: 2px;
   }
+
+  @media only screen and (max-width: 1200px) {
+    font-size: 1em;
+  }
+
+  @media only screen and (max-width: 991px) {
+    font-size: 0.8em;
+    width: 120px;
+  }
 `;
 
 export default More;

@@ -47,18 +47,43 @@ const Card = styled.div`
     & .card-wrapper {
       width: 100%;
     }
-    & p {
-      font-size: 0.9em;
+    & .image-wrapper {
+      min-width: 129px;
     }
   }
 
-  // @media only screen and (max-width: 574px) {
-  //   min-width: 132px;
+  @media only screen and (max-width: 524px) {
+    width: 80%;
+    margin: 3px auto;
+    & .image-wrapper {
+      max-width: 129px;
+      min-width: 100px;
+    }
 
-  //   & .break {
-  //     display: none;
-  //   }
-  // }
+    & p.info {
+      margin: 1em 2em;
+      width: 65%;
+      display: none;
+    }
+
+    &:hover img,
+    &:active img {
+      margin-top: -5px;
+      margin-bottom: 5px;
+    }
+
+    &:hover p.info,
+    ,
+    &:active p.info {
+      display: block;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    & p.info {
+      width: 75%;
+    }
+  }
 `;
 
 export default Card;

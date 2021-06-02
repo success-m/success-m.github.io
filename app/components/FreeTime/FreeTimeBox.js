@@ -23,16 +23,22 @@ const FreeTimeBox = styled.div`
     margin-bottom: 5px;
   }
 
+  @media only screen and (max-width: 1200px) {
+    min-width: 152px;
+  }
+
   @media only screen and (max-width: 767px) {
+    min-width: 123px;
+
     &.not-big-data p {
-      font-size: 0.8em;
+      // font-size: 1em;
     }
   }
 
   @media only screen and (max-width: 524px) {
-    width: 45%;
-    min-width: 80px;
-    font-size: 0.8em;
+    width: 30%;
+    min-width: 85px;
+    // font-size: 1em;
 
     &.not-big-data {
       width: 100%;

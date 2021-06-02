@@ -31,15 +31,20 @@ const CareerCircle = styled.div`
 
   @media only screen and (max-width: 767px) {
     width: 95%;
-    // border-radius: 0%;
-    // border: 0;
-    font-size: 0.8em;
-    padding: 2px;
   }
 
   @media only screen and (max-width: 574px) {
     border-radius: 0%;
     border: 0;
+  }
+
+  @media only screen and (max-width: 574px) {
+    border-radius: 0%;
+    border: 0;
+
+    &:after {
+      padding-bottom: 50%;
+    }
   }
 `;
 
