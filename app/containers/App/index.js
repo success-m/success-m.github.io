@@ -9,6 +9,7 @@
 
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 import HomePage from 'containers/HomePage/Loadable';
 import ComingSoon from 'containers/ComingSoon/Loadable';
@@ -24,6 +25,7 @@ import Footer from '../../components/Footer';
 export default function App() {
   return (
     <div id="main-wrapper">
+      <Helmet title="Success Malla" />
       {/* header here */}
       <Header />
       {/* header ends here */}

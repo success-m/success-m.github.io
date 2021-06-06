@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Helmet } from 'react-helmet';
 import Article from '../../components/Article';
 import Card from '../../components/Card';
 import Div from '../../components/Div';
@@ -46,6 +47,13 @@ export default function Interest() {
 
   return (
     <>
+      <Helmet>
+        <title>Success Malla - Interest</title>
+        <meta
+          name="description"
+          content="The simple answer is, I do what looks interesting to me."
+        />
+      </Helmet>
       {/* top banner start */}
       <Article>
         <div className="container">

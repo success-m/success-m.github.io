@@ -6,6 +6,8 @@
  */
 
 import React, { useEffect } from 'react';
+import { Helmet } from 'react-helmet';
+
 import '../../components/css/text.css';
 import FullH1 from '../../components/FullH1';
 import Article from '../../components/Article';
@@ -22,6 +24,13 @@ export default function Career() {
 
   return (
     <>
+      <Helmet>
+        <title>Success Malla - Career</title>
+        <meta
+          name="description"
+          content="I have been working in IT Industry since 2013. I am currently working as a Senior Software Engineer / Development Manager where I focus on BI infrastructure to solve requirements of e-commerce based clients. Mostly, I am involved in building data infrastructure, developing data pipelines, establishing coding conventions and defining processes."
+        />
+      </Helmet>
       {/* Top banner start */}
       <Article>
         <div className="container">

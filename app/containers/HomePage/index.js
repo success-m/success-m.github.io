@@ -6,6 +6,7 @@
  */
 
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import { FormattedMessage } from 'react-intl';
 import messages from './messages';
 
@@ -24,6 +25,13 @@ import Interest from '../../components/Interest';
 export default function HomePage() {
   return (
     <>
+      <Helmet>
+        <title>Success Malla - Home Page</title>
+        <meta
+          name="description"
+          content="A Big Data Engineer passionate about exploring ways to process Big Data as a career and interested in music, photography, fitness to name a few. I have tried to express my interests and skills via this site."
+        />
+      </Helmet>
       {/* top banner section start */}
       <Article>
         <div className="container">
