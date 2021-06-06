@@ -26,6 +26,6 @@ export default defineMessages({
   link3: {
     id: `${scope}.link3`,
     defaultMessage: '',
-    link: '/documentation',
+    link: '/blog',
   },
 });

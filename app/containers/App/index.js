@@ -31,7 +31,7 @@ export default function App() {
         <Route exact path="/" component={HomePage} />
         <Route exact path="/interests" component={InterestPage} />
         <Route exact path="/career" component={Career} />
-        <Route exact path="/documentation" component={ComingSoon} />
+        <Route exact path="/blog" component={ComingSoon} />
         <Route component={NotFoundPage} />
       </Switch>
       <GlobalStyle />
