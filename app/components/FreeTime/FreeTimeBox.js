@@ -14,7 +14,7 @@ const FreeTimeBox = styled.div`
   }
 
   & img {
-    width: 90%;
+    width: 100%;
     transition: margin 0.5s;
   }
 
