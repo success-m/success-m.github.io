@@ -6,6 +6,7 @@ const SocialIcons = styled.a`
   height: auto;
   color: inherit;
   display: inline-block;
+  transition: color 0.3s;
 
   &:hover {
     color: #ffbf5d;
