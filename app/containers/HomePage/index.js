@@ -28,7 +28,7 @@ export default function HomePage() {
         <title>Success Malla - Home Page</title>
         <meta
           name="description"
-          content="A Big Data Engineer passionate about exploring ways to process Big Data as my career. A techie guy who is drawn to the latest technology stack in the industry. Have a question on Big Data computing? Get in touch with me."
+          content="A Big Data Engineer passionate about exploring ways to process Big Data as my career. A techie guy who is drawn to the latest technology stack in the industry."
         />
         <link rel="canonical" href="https://successmalla.com.np" />
       </Helmet>

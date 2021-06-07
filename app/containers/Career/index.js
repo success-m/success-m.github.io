@@ -49,6 +49,7 @@ export default function Career() {
                 infrastructure, developing data pipelines, establishing coding
                 conventions and defining processes.
               </P>
+              <P className="center">Want to know more? Scroll down.</P>
             </div>
           </HalfHeight>
         </div>

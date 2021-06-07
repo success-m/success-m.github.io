@@ -40,7 +40,7 @@ export default function Interest() {
         <title>Success Malla - Interest</title>
         <meta
           name="description"
-          content="The simple answer is, I do what looks interesting to me."
+          content="A techie guy who is drawn to the latest technology stack in the industry."
         />
         <link rel="canonical" href="https://successmalla.com.np/interests" />
       </Helmet>
@@ -54,7 +54,9 @@ export default function Interest() {
             <div className="col col-lg-6 align-self-center">
               <FullH1 className="center">Interests</FullH1>
               <P className="center">
-                The simple answer is, I do what looks interesting to me.
+                I am a techie guy who is drawn to the latest technology stack in
+                the industry. The simple answer is, I do what looks interesting
+                to me.
               </P>
             </div>
           </HalfHeight>
