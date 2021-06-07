@@ -30,6 +30,10 @@ export default function Career() {
           name="description"
           content="I have been working in IT Industry since 2013. I am currently working as a Senior Software Engineer / Development Manager where I focus on BI infrastructure to solve requirements of e-commerce based clients. Mostly, I am involved in building data infrastructure, developing data pipelines, establishing coding conventions and defining processes."
         />
+        <meta
+          name="keywords"
+          content="success in big data, big data technologies, big data fundamentals"
+        />
         <link rel="canonical" href="https://successmalla.com.np/career" />
       </Helmet>
       {/* Top banner start */}

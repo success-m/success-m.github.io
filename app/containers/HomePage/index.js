@@ -30,6 +30,10 @@ export default function HomePage() {
           name="description"
           content="A Big Data Engineer passionate about exploring ways to process Big Data as my career. A techie guy who is drawn to the latest technology stack in the industry."
         />
+        <meta
+          name="keywords"
+          content="success knows big data, big data analytics, big data processing"
+        />
         <link rel="canonical" href="https://successmalla.com.np" />
       </Helmet>
       {/* top banner section start */}
