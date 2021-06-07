@@ -53,6 +53,7 @@ export default function Interest() {
           name="description"
           content="The simple answer is, I do what looks interesting to me."
         />
+        <link rel="canonical" href="https://successmalla.com.np/interests" />
       </Helmet>
       {/* top banner start */}
       <Article>

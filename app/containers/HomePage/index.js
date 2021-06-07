@@ -31,6 +31,7 @@ export default function HomePage() {
           name="description"
           content="A Big Data Engineer passionate about exploring ways to process Big Data as a career and interested in music, photography, fitness to name a few. I have tried to express my interests and skills via this site."
         />
+        <link rel="canonical" href="https://successmalla.com.np" />
       </Helmet>
       {/* top banner section start */}
       <Article>

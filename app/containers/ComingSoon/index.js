@@ -25,6 +25,7 @@ export default function NotFound() {
           name="description"
           content="The simple answer is, I do what looks interesting to me."
         /> */}
+        <link rel="canonical" href="https://successmalla.com.np/blog" />
       </Helmet>
       <Article className="grey">
         <div className="container">
