@@ -20,7 +20,7 @@ const More = styled(Link)`
   font-size: 1.2em;
   line-height: 1.7em;
   letter-spacing: 0.1em;
-  transition: margin 0.3s;
+  transition: margin 0.3s, background-color 0.3s;
 
   &:hover {
     background-color: #6698ab;
