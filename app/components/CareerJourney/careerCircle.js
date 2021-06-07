@@ -10,6 +10,7 @@ const CareerCircle = styled.div`
   margin: 0 auto;
   font-size: 1.1em;
   padding: 10%;
+  transition: background-color 0.3s;
 
   &:after {
     content: '';
@@ -20,7 +21,8 @@ const CareerCircle = styled.div`
   &:hover,
   &.active {
     background-color: #ffce84;
-    border: 0;
+    box-shadow: 0px 2px 2px #ddd;
+    // border: 0;
   }
 
   @media only screen and (max-width: 1370px) {
