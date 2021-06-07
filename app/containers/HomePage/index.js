@@ -7,8 +7,6 @@
 
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import { FormattedMessage } from 'react-intl';
-import messages from './messages';
 
 import '../../components/css/text.css';
 import FullH1 from '../../components/FullH1';
@@ -21,6 +19,7 @@ import Article from '../../components/Article';
 import CareerJourneySection from '../../components/CareerJourneySection';
 import InShortSection from '../../components/InShortSection';
 import Interest from '../../components/Interest';
+import AskMe from '../../components/More/AskMe';
 
 export default function HomePage() {
   return (
@@ -29,7 +28,7 @@ export default function HomePage() {
         <title>Success Malla - Home Page</title>
         <meta
           name="description"
-          content="A Big Data Engineer passionate about exploring ways to process Big Data as a career and interested in music, photography, fitness to name a few. I have tried to express my interests and skills via this site."
+          content="A Big Data Engineer passionate about exploring ways to process Big Data as my career. A techie guy who is drawn to the latest technology stack in the industry. Have a question on Big Data computing? Get in touch with me."
         />
         <link rel="canonical" href="https://successmalla.com.np" />
       </Helmet>
@@ -41,12 +40,16 @@ export default function HomePage() {
             style={{ minHeight: '700px' }}
           >
             <div className="col col-lg-6 align-self-center">
-              <FullH1 className="center">
-                <FormattedMessage {...messages.header} />
-              </FullH1>
+              <FullH1 className="center">Success knows Big Data</FullH1>
               <P className="center">
-                <FormattedMessage {...messages.info} />
+                A Big Data Engineer passionate about exploring ways to process
+                Big Data as my career. A techie guy who is drawn to the latest
+                technology stack in the industry.
               </P>
+              <P className="center">Have a question on Big Data computing?</P>
+              <div style={{ width: '100%', marginTop: '1em' }}>
+                <AskMe href="mailto:successmalla@gmail.com">Ask me &#62;</AskMe>
+              </div>
             </div>
           </HalfHeight>
         </div>

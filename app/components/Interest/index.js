@@ -5,8 +5,6 @@ import FullH1 from '../FullH1';
 import FullHeight from '../FullHeight';
 import More from '../More';
 import P from '../P';
-import Fitness from './Fitness';
-import Music from './Music';
 import New from './New';
 import Photography from './Photography';
 
@@ -24,8 +22,6 @@ export default function Interest() {
           <div style={{ width: '100%', height: '1px' }} />
           <FreeTime className="col">
             <Photography />
-            <Music />
-            <Fitness />
             <New />
           </FreeTime>
           <div style={{ width: '100%', margin: '5em' }}>

@@ -9,7 +9,7 @@ export default function() {
     <FreeTimeBox>
       {/* eslint-disable-next-line jsx-a11y/alt-text */}
       <img src={PhotographyPng} />
-      <P>Photography</P>
+      <P>Tech Stuff</P>
     </FreeTimeBox>
   );
 }
