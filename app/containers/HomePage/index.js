@@ -51,7 +51,9 @@ export default function HomePage() {
                 technology stack in the industry.
               </P>
               <P className="center">Have a question on Big Data computing?</P>
-              <div style={{ width: '100%', marginTop: '1em' }}>
+              <div
+                style={{ width: '100%', marginTop: '1em', marginBottom: '2em' }}
+              >
                 <AskMe href="mailto:successmalla@gmail.com">Ask me &#62;</AskMe>
               </div>
             </div>
