@@ -25,7 +25,7 @@ export default function HomePage() {
   return (
     <>
       <Helmet>
-        <title>Success Malla - Home Page</title>
+        <title>Success Malla - Experienced Big Data Engineer</title>
         <meta
           name="description"
           content="A Big Data Engineer passionate about exploring ways to process Big Data as my career. A techie guy who is drawn to the latest technology stack in the industry."
