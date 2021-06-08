@@ -13,7 +13,7 @@ import Photography from '../../images/photography.png';
 
 export default function Interest() {
   useEffect(() => {
-    // window.scrollTo(0, 0);
+    window.scrollTo(0, 0);
   }, []);
 
   const data = [
